@@ -2,7 +2,7 @@
 
 VLC player plugin using desktop screen recorder
 
-git clone
+git clone https://github.com/vijaysoul/vlcscreencapture.git
 
 npm install
 
