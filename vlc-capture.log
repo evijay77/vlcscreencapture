@@ -1,0 +1,235 @@
+[006c7364] core libvlc debug: VLC media player - 2.2.6 Umbrella
+[006c7364] core libvlc debug: Copyright © 1996-2017 the VideoLAN team
+[006c7364] core libvlc debug: revision 2.2.6-0-g1aae789
+[006c7364] core libvlc debug: configured with ../extras/package/win32/../../../configure  '--enable-update-check' '--enable-lua' '--enable-faad' '--enable-flac' '--enable-theora' '--enable-twolame' '--enable-quicktime' '--enable-avcodec' '--enable-merge-ffmpeg' '--enable-dca' '--enable-mpc' '--enable-libass' '--enable-x264' '--enable-schroedinger' '--enable-realrtsp' '--enable-live555' '--enable-dvdread' '--enable-shout' '--enable-goom' '--enable-caca' '--disable-sdl' '--enable-qt' '--enable-skins2' '--enable-sse' '--enable-mmx' '--enable-libcddb' '--enable-zvbi' '--disable-telx' '--enable-nls' '--host=i686-w64-mingw32' 'host_alias=i686-w64-mingw32'
+[006c7364] core libvlc debug: using multimedia timers as clock source
+[006c7364] core libvlc debug:  min period: 1 ms, max period: 1000000 ms
+[006c7364] core libvlc debug: searching plug-in modules
+[006c7364] core libvlc debug: ignoring plugins cache file
+[006c7364] core libvlc debug: recursively browsing `C:\Users\VIJAY\Desktop\crud\surface test\vlcscreencapture\node_modules\screen-capture-recorder\vlc\plugins'
+[006c7364] core libvlc debug: plug-ins loaded: 28 modules
+[006c7364] core libvlc debug: translation test: code is "C"
+[006c7364] core libvlc debug: CPU has capabilities MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4.1 SSE4.2 FPU 
+[025cde24] core playlist debug: creating audio output
+[025cdf74] core audio output debug: looking for audio output module matching "any": 0 candidates
+[025cdf74] core audio output debug: no audio output modules
+[025cdf74] core audio output error: no suitable audio output module
+[025b54d4] core interface debug: looking for interface module matching "rc,none": 3 candidates
+[025b54d4] oldrc interface debug: base: localhost, port: 8088
+[025b54d4] core interface debug: net: listening to localhost port 8088
+[025b54d4] core interface debug: using interface module "oldrc"
+[025ce544] core interface debug: looking for interface module matching "hotkeys,none": 3 candidates
+[025ce544] core interface debug: no interface modules matched
+[025ce544] core interface error: no suitable interface module
+[006c7364] core libvlc error: interface "hotkeys,none" initialization failed
+[025d52fc] core interface debug: looking for interface module matching "globalhotkeys,none": 3 candidates
+[025d52fc] core interface debug: no interface modules matched
+[025d52fc] core interface error: no suitable interface module
+[006c7364] core libvlc error: interface "globalhotkeys,none" initialization failed
+[025d5c7c] core interface debug: looking for interface module matching "dummy": 3 candidates
+[025d5c7c] dummy interface: VLC media player - 2.2.6 Umbrella
+[025d5c7c] dummy interface: Copyright © 1996-2017 the VideoLAN team
+[025d5c7c] dummy interface: 
+Warning: if you cannot access the GUI anymore, open a command-line window, go to the directory where you installed VLC and run "vlc -I qt"
+
+[025d5c7c] dummy interface: using the dummy interface module...
+[025d5c7c] core interface debug: using interface module "dummy"
+[025b54d4] core interface debug: accepted socket 832 (from socket 800)
+[025cde24] core playlist debug: adding item `screen://' ( screen:// )
+[025cde24] core playlist debug: processing request item: screen://, node: null, skip: 0
+[025cde24] core playlist debug: rebuilding array of current - root Playlist
+[025cde24] core playlist debug: rebuild done - 1 items, index 0
+[025cde24] core playlist debug: starting playback of the new playlist item
+[025cde24] core playlist debug: resyncing on screen://
+[025cde24] core playlist debug: screen:// is at 0
+[025cde24] core playlist debug: creating new input thread
+[025c435c] core input debug: Creating an input for 'screen://'
+[025cde24] core playlist debug: requesting art for screen://
+[025bc67c] core stream output debug: using sout chain=`transcode{vcodec=h264,venc=x264{preset=ultrafast,profile=baseline,crf=0},fps=20,acodec=none,scale=1,width=1366,height=768}:duplicate{dst=std{access=file,mux=mp4,dst="C:\Users\VIJAY\AppData\Local\Temp\tmp-xySMD7z+.tmp"}}'
+[025bc67c] core stream output debug: stream=`duplicate'
+[025d9684] core stream out debug: looking for sout stream module matching "duplicate": 3 candidates
+[025d9684] stream_out_duplicate stream out debug: creating 'duplicate'
+[025d9684] stream_out_duplicate stream out debug:  * adding `std{access=file,mux=mp4,dst="C:\Users\VIJAY\AppData\Local\Temp\tmp-xySMD7z+.tmp"}'
+[025bc67c] core stream output debug: stream=`std'
+[025d971c] core stream out debug: looking for sout stream module matching "std": 3 candidates
+[025cde24] core playlist debug: meta ok for (null), need to fetch art
+[025d971c] core stream out debug: set config option: sout-standard-access to file
+[025d971c] core stream out debug: set config option: sout-standard-mux to mp4
+[025d971c] core stream out debug: set config option: sout-standard-dst to C:\Users\VIJAY\AppData\Local\Temp\tmp-xySMD7z+.tmp
+[025c95dc] core access out debug: looking for sout access module matching "file": 2 candidates
+[025c44c4] core art finder debug: looking for meta fetcher module matching "any": 0 candidates
+[025c44c4] core art finder debug: no meta fetcher modules
+[006c7364] core libvlc debug: searching art for screen://
+[025c42e4] core art finder debug: looking for art finder module matching "any": 0 candidates
+[025c42e4] core art finder debug: no art finder modules
+[025c95dc] access_output_file access out debug: file access output opened (C:\Users\VIJAY\AppData\Local\Temp\tmp-xySMD7z+.tmp)
+[025c95dc] core access out debug: using sout access module "access_output_file"
+[025d9464] core mux debug: looking for sout mux module matching "mp4": 3 candidates
+[006c7364] core libvlc debug: art not found for screen://
+[025d9464] mux_mp4 mux debug: Mp4 muxer opened
+[025c462c] core art finder debug: looking for meta fetcher module matching "any": 0 candidates
+[025d9464] core mux debug: using sout mux module "mux_mp4"
+[025d971c] stream_out_standard stream out debug: [025c462c] using `file/mp4://C:\Users\VIJAY\AppData\Local\Temp\tmp-xySMD7z+.tmp'core art finder debug: 
+[025d971c] no meta fetcher modulescore stream out debug: 
+using sout stream module "stream_out_standard"
+[025d9684] core stream out debug: using sout stream module "stream_out_duplicate"
+[025bc67c] core stream output debug: stream=`transcode'
+[025d9514] core stream out debug: looking for sout stream module matching "transcode": 3 candidates
+[025cde24] core playlist debug: searching art for screen://
+[025c444c] core art finder debug: looking for art finder module matching "any": 0 candidates
+[025c444c] core art finder debug: no art finder modules
+[025cde24] core playlist debug: art not found for screen://
+[025d9514] core stream out debug: set config option: sout-transcode-vcodec to h264
+[025d9514] core stream out debug: set config option: sout-transcode-venc to x264{preset=ultrafast,profile=baseline,crf=0}
+[025d9514] core stream out debug: set config option: sout-transcode-fps to 20
+[025d9514] core stream out debug: set config option: sout-transcode-acodec to none
+[025d9514] core stream out debug: set config option: sout-transcode-scale to 1
+[025d9514] core stream out debug: set config option: sout-transcode-width to 1366
+[025d9514] core stream out debug: set config option: sout-transcode-height to 768
+[025d9514] stream_out_transcode stream out debug: Checking codec mapping for none got none 
+[025d9514] stream_out_transcode stream out debug: codec audio=none 0Hz 0 channels 96Kb/s
+[025d9514] stream_out_transcode stream out debug: Checking video codec mapping for h264 got h264 
+[025d9514] stream_out_transcode stream out debug: codec video=h264 1366x768 scaling: 1.000000 0kb/s
+[025d9514] core stream out debug: using sout stream module "stream_out_transcode"
+[025c435c] core input debug: using timeshift granularity of 50 MiB, in path 'C:\Users\VIJAY\AppData\Local\Temp'
+[025c435c] core input debug: `screen://' gives access `screen' demux `' path `'
+[025c435c] core input debug: specified demux `any'
+[025c435c] core input debug: creating demux: access='screen' demux='any' location='' file='(null)'
+[025bc594] core demux debug: looking for access_demux module matching "screen": 1 candidates
+[025bc594] screen demux debug: capturing subscreen top: 0, left: 0, width: 1366, height: 768
+[025bc594] screen demux debug: screen width: 1366, height: 768, depth: 32
+[025c435c] core input debug: selecting program id=0
+[025bc594] core demux debug: using access_demux module "screen"
+[025c435c] core input error: option sub-delay does not exist
+[025d9a4c] core decoder debug: looking for packetizer module matching "any": 3 candidates
+[025d9a4c] core decoder debug: using packetizer module "rawvideo"
+[025c435c] core input debug: starting in sync mode
+[025d587c] core demux meta debug: looking for meta reader module matching "any": 0 candidates
+[025d587c] core demux meta debug: no meta reader modules
+[025c435c] core input debug: `screen://' successfully opened
+[025c435c] core input debug: Buffering 0%
+[025c435c] core input debug: switching to async mode
+[025bc67c] core stream output debug: adding a new sout input (sout_input:025d7ce8)
+[025d9514] stream_out_transcode stream out debug: creating video transcoding from fcc=`RV32' to fcc=`h264'
+[025e633c] core generic debug: looking for decoder module matching "any": 3 candidates
+[025e633c] core generic debug: using decoder module "rawvideo"
+[025e6684] core encoder debug: looking for encoder module matching "x264": 3 candidates
+[025e6684] x264 encoder debug: version x264 0.142.X
+[025e6684] core encoder debug: set config option: sout-x264-preset to ultrafast
+[025e6684] core encoder debug: set config option: sout-x264-profile to baseline
+[025e6684] core encoder debug: set config option: sout-x264-crf to 0
+[025e6684] x264 encoder: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 FMA3 LZCNT BMI1
+
+[025e6684] x264 encoder: profile Constrained Baseline, level 3.2
+
+[025e6684] core encoder debug: using encoder module "x264"
+[025e6684] core encoder debug: removing module "x264"
+[025e6684] x264 encoder debug: framecount still in libx264 buffer: 0
+[025c435c] core input debug: Buffering 12%
+[025c435c] core input debug: Buffering 25%
+[025c435c] core input debug: Buffering 37%
+[025c435c] core input debug: Buffering 50%
+[025c435c] core input debug: Buffering 62%
+[025c435c] core input debug: Buffering 75%
+[025c435c] core input debug: Buffering 87%
+[025c435c] core input debug: Buffering 100%
+[025c435c] core input debug: Stream buffering done (450 ms in 441 ms)
+[025c435c] core input debug: Decoder wait done in 0 ms
+[025d9514] stream_out_transcode stream out debug: decoder aspect is 1.778646:1
+[025d9514] stream_out_transcode stream out debug: source pixel aspect is 1.000000:1
+[025d9514] stream_out_transcode stream out debug: scaled pixel aspect is 1.000000:1
+[025d9514] stream_out_transcode stream out debug: source 1366x768, destination 1366x768
+[025d9514] stream_out_transcode stream out debug: source fps 20/1, destination 20/1
+[025d9514] stream_out_transcode stream out: input interval 50000 (base 1)
+[025d9514] stream_out_transcode stream out: output interval 50000 (base 1)
+[025d9514] stream_out_transcode stream out debug: encoder aspect is 1366:768
+[03f2034c] core filter debug: looking for video filter2 module matching "any": 4 candidates
+[03f2034c] swscale filter debug: 1366x768 (1366x768) chroma: RV32 -> 1366x768 (1366x768) chroma: I420 with scaling using Bicubic (good quality)
+[03f2034c] core filter debug: using video filter2 module "swscale"
+[025d9514] core stream out debug: Filter 'Swscale' (03f2034c) appended to chain
+[025d9514] stream_out_transcode stream out debug: destination (after video filters) 1366x768
+[025e6684] core encoder debug: looking for encoder module matching "x264": 3 candidates
+[025e6684] x264 encoder debug: version x264 0.142.X
+[025e6684] core encoder debug: set config option: sout-x264-preset to ultrafast
+[025e6684] core encoder debug: set config option: sout-x264-profile to baseline
+[025e6684] core encoder debug: set config option: sout-x264-crf to 0
+[025e6684] x264 encoder: using SAR=1/1
+
+[025e6684] x264 encoder: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 FMA3 LZCNT BMI1
+
+[025e6684] x264 encoder: profile Constrained Baseline, level 3.2
+
+[025e6684] core encoder debug: using encoder module "x264"
+[025d9684] stream_out_duplicate stream out debug: duplicated a new stream codec=h264 (es=0 group=0)
+[025d9464] core mux debug: adding a new input
+[025d9464] mux_mp4 mux debug: adding input
+[025d9684] stream_out_duplicate stream out debug:     - added for output 0
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[025d9514] stream_out_transcode stream out warning: Reseting video sync
+[006c7364] core libvlc debug: exiting
+[006c7364] core libvlc debug: removing all interfaces
+[006c7364] core libvlc debug: exiting
+[006c7364] core libvlc debug: no exit handler
+[025d5c7c] core interface debug: removing module "dummy"
+[025b54d4] core interface debug: removing module "oldrc"
+[025cde24] core playlist debug: destroying
+[025cde24] core playlist debug: deactivating the playlist
+[025cde24] core playlist debug: incoming request - stopping current input
+[025c435c] core input debug: control: stopping input
+[025cde24] core playlist debug: incoming request - stopping current input
+[025cde24] core playlist debug: finished input
+[025d9a4c] core decoder error: cannot continue streaming due to errors
+[025d9a4c] core decoder debug: removing module "rawvideo"
+[025d9a4c] core decoder debug: killing decoder fourcc `RV32', 0 PES in FIFO
+[025bc67c] core stream output debug: removing a sout input (sout_input:025d7ce8)
+[025e633c] core generic debug: removing module "rawvideo"
+[025e6684] core encoder debug: removing module "x264"
+[025e6684] x264 encoder debug: framecount still in libx264 buffer: 0
+[025e6684] x264 encoder: frame I:1     Avg QP:20.00  size:129846
+
+[025e6684] x264 encoder: frame P:177   Avg QP:12.18  size:  1790
+
+[025e6684] x264 encoder: mb I  I16..4: 100.0%  0.0%  0.0%
+
+[025e6684] x264 encoder: mb P  I16..4:  0.2%  0.0%  0.0%  P16..4:  8.5%  0.0%  0.0%  0.0%  0.0%    skip:91.2%
+
+[025e6684] x264 encoder: coded y,uvDC,uvAC intra: 23.7% 20.7% 19.4% inter: 2.7% 3.2% 0.4%
+
+[025e6684] x264 encoder: i16 v,h,dc,p: 63% 35%  1%  1%
+
+[025e6684] x264 encoder: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 40% 51%  8%  1%  0%  0%  0%  1%  0%
+
+[025e6684] x264 encoder: i8c dc,h,v,p: 62% 25% 12%  1%
+
+[025e6684] x264 encoder: kb/s:401.44
+
+[025d9514] core stream out debug: Filter 03f2034c removed from chain
+[03f2034c] core filter debug: removing module "swscale"
+[025d9464] mux_mp4 mux debug: removing input
+[025d9464] core mux warning: no more input streams for this mux
+[025bc594] core demux debug: removing module "screen"
+[025c435c] core input debug: Program doesn't contain anymore ES
+[025cde24] core playlist debug: incoming request - stopping current input
+[025cde24] core playlist debug: dead input
+[025bc67c] core stream output debug: destroying useless sout
+[025d9514] core stream out debug: destroying chain... (name=transcode)
+[025d9514] core stream out debug: removing module "stream_out_transcode"
+[025d9514] core stream out debug: destroying chain done
+[025d9684] core stream out debug: destroying chain... (name=duplicate)
+[025d9684] core stream out debug: removing module "stream_out_duplicate"
+[025d9684] stream_out_duplicate stream out debug: closing a duplication
+[025d971c] core stream out debug: destroying chain... (name=std)
+[025d971c] core stream out debug: removing module "stream_out_standard"
+[025d9464] core mux debug: removing module "mux_mp4"
+[025d9464] mux_mp4 mux debug: Close
+[025d9464] mux_mp4 mux debug: movie duration 9s
+[025d9464] mux_mp4 mux debug: created 1 chunks (stco)
+[025c95dc] core access out debug: removing module "access_output_file"
+[025c95dc] access_output_file access out debug: file access output closed
+[025d971c] core stream out debug: destroying chain done
+[025d9684] core stream out debug: destroying chain done
